@@ -1,0 +1,69 @@
+.rojo {
+    background: #eb2313;
+}
+
+.oscuro {
+    background: #161616;
+}
+
+.fa-6 {
+    font-size: 20em;
+}
+
+@media all and (min-width: 1100px) {
+    html,body,div {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        color: #fff;
+        font-family: Arial,Verdana;
+    }
+
+    body .ventanilla {
+        position: absolute;
+        top: 81px;
+        background: #fff;
+        color: #eb2313;
+
+        margin: 0 auto;
+        width: 962px;
+    }
+
+    .envoltura {
+        margin: 0 auto;
+        width: 962px;
+    }
+
+    header {
+        height: 81px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 101;
+    }
+
+    header .envoltura {
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+
+    footer {
+        position: fixed;
+        height: 7%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-size: 11px;
+        min-height: 26px;
+        z-index: 99;
+    }
+
+    footer .envoltura {
+        margin-top: 10px;
+    }
+
+}
